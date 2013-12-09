@@ -1,0 +1,192 @@
+<html>
+<table width="1003" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr align="center" valign="top">
+    <td colspan="3"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1003" height="200">
+      <param name="movie" value="image/07-02.swf">
+      <param name="quality" value="high">
+      <embed src="http://pic.anhuinews.com/0/02/07/43/2074386_222927.jpg"  width="1000" height="200"></embed>
+    </object></td>
+  </tr>
+</table>
+
+ 
+
+
+<table width="1003" height="60" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+        <tr>
+          <td width="1003" height="60" colspan="2"><table width="560" height="30" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="560" align="center" class="style10"><div align="center">
+                <a href="../../index.html"><font size=2><b>首页</b></font></a>|
+                <a href="../../Index/Company Profile.html"><font size=2><b> 企业概况</b></font></a>|
+                <a href="../../Index/News.html"><font size=2><b>新闻中心</b></font></a>|
+                <a href="../Online Booking.html"><font size=2><b>票务</b></font></a>|
+                <a href="../../Index/At your service.html"><font size=2><b>为您服务</b></font></a>|
+                <a href="../../Index/Partner.html"><font size=2><b>合作伙伴</b></font></a>|
+                <a href="../../Index/Express transportation.html"><font size=2><b>快件运输</b></font></a>|
+                <a href="../../Index/Consulting complaints.html"><font size=2><b>咨询投诉</b></font></a></div></td>
+              </tr>
+          </table>
+
+
+
+<table>
+  <tr>
+    <td height="50" colspan="3" align="center" valign="top"><!-- InstanceBeginEditable name="EditRegion1" -->
+       
+
+
+<table width="960" border="0" align="center"  cellspacing="0" cellpadding="0">
+<tr>
+        <td width="80" align="center" valign="top">
+        &nbsp;
+        </td>
+        </tr>
+      <tr>
+        <td width="240" align="center" valign="top">
+        <table width="194" height="400" border="0" cellpadding="0" cellspacing="0" background="image/wssp-dr.jpg">
+          <tr>
+            <td height="45">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="30" align="center" valign="middle"><a href="../Register/Register Description.html"><font size=2><b>注册</b></font></a></td>
+          </tr>
+          <tr>
+            <td height="30" align="center" valign="middle"><a href="../Login/Login.html"><font size=2><b>登录</b></font></a></td>
+          </tr>
+          <tr>
+            <td height="30" align="center" valign="middle"><a href="Inquiry.html"><font size=2><b>查询</b></font></a></td>
+          </tr>
+          <tr>
+            <td height="30" align="center" valign="middle"><a href="../Ticket/Ticket.html"><font size=2><b>购票</b></font></a></td>
+          </tr>
+          <tr>
+            <td height="30" align="center" valign="middle"><a href="../Return a ticket/Return a ticket.html"><font size=2><b>退票</b></font></a></td>
+          </tr>
+ <!-- <tr>
+            <td height="30" align="center" valign="middle">
+            <a href="tbRegister.do?event=add&formname=tbRegisterForm&menuid=5" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','image/wssp-hygl10.jpg',1)"><img src="image/wssp-hygl10.jpg" name="Image7" width="150" height="30" border="0"></a></td>
+          </tr> -->
+
+          
+
+
+
+
+ </table>
+    </td> 
+<td width="730" align="right" valign="top">
+        <table width="730" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="50" align="center" valign="center"><img src="image/wssp-zxdp109.jpg" width="666" height="37"></td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="700">                
+           
+         <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="10" colspan="6"></td>
+        </tr>
+      
+		<tr>
+        <td valign=botton >起始站：<select name=groupcode onchange='station()'><option value='AAA'>忠庄</option><option value='BBB'>常熟地区</option><option value='CCC'>张家港地区</option><option value='DDD'>昆山地区</option><option value='EEE'>太仓地区</option><option value='FFF'>吴江地区</option></select>
+           
+        </td>
+        
+	
+        <td valign=botton>
+          终点站：
+                  <select name=groupcode onchange='station()'><option value='AAA'>仁怀</option><option value='BBB'>常熟地区</option><option value='CCC'>张家港地区</option><option value='DDD'>昆山地区</option><option value='EEE'>太仓地区</option><option value='FFF'>吴江地区</option></select>
+           
+        </td>
+    	
+        </tr>
+		<tr>
+        <td valign=botton colspan=6 align=center>
+        <input type=submit
+					value="查 询"  onclick="sub2()">
+        <p id="demo"></p>
+
+          </span>
+       </td>
+	
+        </tr>
+        
+       <tr>
+          <td height="15" colspan="6"  align=center><font color=red>网上班次查询只能查询到当前时间10分钟以后的班次！请直接在<在线订购>中查询，以那边的结果为准</td>
+        </tr>
+      </table>
+      				<table width="90%" align="center" cellpadding="0" cellspacing="1"  bgcolor="#D3D3D3">
+        			<tr align=center valign=middle bgcolor=#64C2E0><td >起始站</td><td >终点站</td><td>发车时间</td><td>票价（元）</td><td>座位号</td><td>余票</td></tr>
+		            <TR class=column><TD COLSPAN=18 align=center >暂无信息</TD></TR>
+					</table>
+      
+              </td>
+    <td width="7" valign="top" colspan=2>&nbsp;<input type=hidden name=mobile value=""><input type=hidden name=cer_no value="">
+    <input type=hidden name=tname value="">
+    <input type=hidden name=bus_code1> <input type=hidden
+					name=scode> <input type=hidden name=rcode> <input type=hidden
+					name=dcode> <input type=hidden name=available_tickets> <input
+					type=hidden name=price> <input type=hidden name=jprice> <input
+					type=hidden name=tprice> <input type=hidden name=yprice> <input
+					type=hidden name=sst_name> <input type=hidden name=rst_name> <input
+					type=hidden name=tst_name> <input type=hidden name=drive_date1> <input
+					type=hidden name=drive_time>  <input type=hidden name=username
+					value=""> <input type=hidden name=action
+					value="search"><input type=hidden name=city><input type=hidden name=event value="init"><IFRAME ID=childFrm SRC="" STYLE="display:none"></IFRAME></td>
+  </tr>
+</table>
+
+
+   
+
+
+
+
+<!-- InstanceEndEditable -->
+     </td>
+  </tr>
+  
+  <tr>
+    <td height="80" colspan="3" align="center" valign="middle" bgcolor="#FFFFFF" class="style89">
+    <div align="center"><span class="style87"></span></div>      
+    <span class="style87"><span class="style86">
+    <FONT face=宋体></FONT> </span></span>
+
+
+
+<table width="980" height="4" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="69B3CC">
+  <tr>
+    <td height="4"></td>
+  </tr>
+</table>
+<table width=""980"" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="50" align="center" bgcolor="#FFFFFF">
+    2013 版权所有：金阳汽车客运站务有限公司信息中心 <br>
+    <!--  <a HREF="admin/first.jsp" target="_blank">后台管理</a>--> </td>
+  </tr>
+</table>
+
+
+
+
+
+<script>
+function sub2()
+{
+var x="",i=0;
+for (i=0;i<10;i++)
+  {
+  if (i==3)
+    {
+    break;
+    }
+  x=x + "The number is " + i + "<br>";
+  }
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+
+</html>
