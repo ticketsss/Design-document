@@ -1,0 +1,448 @@
+<p></p>
+<p></p>
+<h3 align="center" class="box-t-l">贵阳金阳客车站时刻表</h3>
+<table class="table1" align="center" cellspacing="1"> 
+ 
+ 
+<tr> 
+ <td class="td2">终点站</td> 
+ <td class="td2">发车时间</td> 
+ <td class="td2">车种</td> <td class="td2">里程</td> 
+ <td class="td2">线路</td> 
+</tr> 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/huishui/">惠水</a></td> 
+ <td class="td3" style="text-align: center"><img src="http://www.checi.org/0img/gftrdh.gif" alt="" border="0">-19:00/每10分钟</td> 
+ <td class="td3" style="text-align: center">中客</td> <td class="td3" style="text-align: center">54</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/huishui/">贵阳-惠水</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/zhijin/">织金</a></td> 
+ <td class="td3" style="text-align: center">06:30</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">183</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/zhijin/">贵阳-织金</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/changshun/">长顺</a></td> 
+ <td class="td3" style="text-align: center">06:30-18:30/每30分钟一班</td> 
+ <td class="td3" style="text-align: center">中客</td> <td class="td3" style="text-align: center">87</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/changshun/">贵阳-长顺</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/zhijin/">织金</a></td> 
+ <td class="td3" style="text-align: center">06:40-17:00/每40分钟</td> 
+ <td class="td3" style="text-align: center">大客</td> <td class="td3" style="text-align: center">183</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/zhijin/">贵阳-织金</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/huishui/">惠水</a></td> 
+ <td class="td3" style="text-align: center">06:40-19:30/每8分钟一班</td> 
+ <td class="td3" style="text-align: center">中客</td> <td class="td3" style="text-align: center">54</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/huishui/">贵阳-惠水</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/huangguoshu/">黄果树</a></td> 
+ <td class="td3" style="text-align: center">07:00</td> 
+ <td class="td3" style="text-align: center">60往返</td> <td class="td3" style="text-align: center">137</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/huangguoshu/">贵阳-黄果树</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/huangguoshu/">黄果树</a></td> 
+ <td class="td3" style="text-align: center">07:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">140</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/huangguoshu/">贵阳-黄果树</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/hongguo/">红果</a></td> 
+ <td class="td3" style="text-align: center">07:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">375</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/hongguo/">贵阳-红果</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/zhijindong/">织金洞</a></td> 
+ <td class="td3" style="text-align: center">07:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">183</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/zhijindong/">贵阳-织金洞</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/luodian/">罗甸</a></td> 
+ <td class="td3" style="text-align: center">07:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">166</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/luodian/">贵阳-罗甸</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/changshun/">长顺</a></td> 
+ <td class="td3" style="text-align: center">07:00-18:30/每30分钟</td> 
+ <td class="td3" style="text-align: center">中客</td> <td class="td3" style="text-align: center">87</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/changshun/">贵阳-长顺</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/anshun/">安顺</a></td> 
+ <td class="td3" style="text-align: center">07:00-19:00/每15分钟一班</td> 
+ <td class="td3" style="text-align: center">豪华中客</td> <td class="td3" style="text-align: center">105</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/anshun/">贵阳-安顺</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/anshun/">安顺</a></td> 
+ <td class="td3" style="text-align: center">07:00-19:00/每20分钟</td> 
+ <td class="td3" style="text-align: center">大客</td> <td class="td3" style="text-align: center">105</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/anshun/">贵阳-安顺</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/qingzhen/">清镇</a></td> 
+ <td class="td3" style="text-align: center">07:00-19:00/每20分钟</td> 
+ <td class="td3" style="text-align: center">中客</td> <td class="td3" style="text-align: center">28</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/qingzhen/">贵阳-清镇</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/zunyi/">遵义</a></td> 
+ <td class="td3" style="text-align: center">07:00-19:00/每40分钟</td> 
+ <td class="td3" style="text-align: center">大客</td> <td class="td3" style="text-align: center">163</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/zunyi/">贵阳-遵义</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/qingzhen/">清镇</a></td> 
+ <td class="td3" style="text-align: center">07:00-19:40/每20分钟一班</td> 
+ <td class="td3" style="text-align: center">豪华中客</td> <td class="td3" style="text-align: center">28</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/qingzhen/">贵阳-清镇</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/zunyi/">遵义</a></td> 
+ <td class="td3" style="text-align: center">07:00-20:30/每30分钟</td> 
+ <td class="td3" style="text-align: center">豪华车</td> <td class="td3" style="text-align: center">163</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/zunyi/">贵阳-遵义</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/shuicheng/">水城</a></td> 
+ <td class="td3" style="text-align: center">07:00-9:00/30分钟一班</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">-</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/shuicheng/">贵阳-水城</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/jinsha/">金沙</a></td> 
+ <td class="td3" style="text-align: center">07:10</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">222</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/jinsha/">贵阳-金沙</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/dachang/">大厂</a></td> 
+ <td class="td3" style="text-align: center">07:20</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">292</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/dachang/">贵阳-大厂</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/jinsha/">金沙</a></td> 
+ <td class="td3" style="text-align: center">07:30</td> 
+ <td class="td3" style="text-align: center">依维柯</td> <td class="td3" style="text-align: center">222</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/jinsha/">贵阳-金沙</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/tuqiao/">土桥</a></td> 
+ <td class="td3" style="text-align: center">07:30</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">39</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/tuqiao/">贵阳-土桥</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/qianxi/">黔西</a></td> 
+ <td class="td3" style="text-align: center">07:30</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">128</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/qianxi/">贵阳-黔西</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/renhuai/">仁怀</a></td> 
+ <td class="td3" style="text-align: center">07:30</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">242</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/renhuai/">贵阳-仁怀</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/qianxi/">黔西</a></td> 
+ <td class="td3" style="text-align: center">07:30-14:00/每30分钟</td> 
+ <td class="td3" style="text-align: center">大客</td> <td class="td3" style="text-align: center">128</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/qianxi/">贵阳-黔西</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/zunyi/">遵义</a></td> 
+ <td class="td3" style="text-align: center">07:30-19:00/每30分钟一班</td> 
+ <td class="td3" style="text-align: center">豪华大客</td> <td class="td3" style="text-align: center">163</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/zunyi/">贵阳-遵义</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/duyun/">都匀</a></td> 
+ <td class="td3" style="text-align: center">07:30-20:00/20-30分钟1班</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">173</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/duyun/">贵阳-都匀</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/tieshi/">铁石</a></td> 
+ <td class="td3" style="text-align: center">07:40</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">130</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/tieshi/">贵阳-铁石</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/daozhen/">道真</a></td> 
+ <td class="td3" style="text-align: center">07:50</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">376</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/daozhen/">贵阳-道真</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/yangchang/">羊场</a></td> 
+ <td class="td3" style="text-align: center">07:50-17:00/每50分钟一班</td> 
+ <td class="td3" style="text-align: center">中客</td> <td class="td3" style="text-align: center">73</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/yangchang/">贵阳-羊场</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/kaiyangyangchang/">开阳羊场</a></td> 
+ <td class="td3" style="text-align: center">07:50-17:00/每50分钟一班</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">73</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/kaiyangyangchang/">贵阳-开阳羊场</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/pingtang/">平塘</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">192</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/pingtang/">贵阳-平塘</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/meitan/">湄潭</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">242</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/meitan/">贵阳-湄潭</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/sinan/">思南</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">375</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/sinan/">贵阳-思南</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/qianxi/">黔西</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">128</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/qianxi/">贵阳-黔西</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/renhuai/">仁怀</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">242</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/renhuai/">贵阳-仁怀</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/yuqing/">余庆</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">251</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/yuqing/">贵阳-余庆</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/yanhe/">沿河</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">434</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/yanhe/">贵阳-沿河</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/chishui/">赤水</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">464</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/chishui/">贵阳-赤水</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/fuyuan/">富源</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">-</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/fuyuan/">贵阳-富源</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/huangguoshu/">黄果树</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">60往返</td> <td class="td3" style="text-align: center">137</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/huangguoshu/">贵阳-黄果树</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/huangguoshu/">黄果树</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">140</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/huangguoshu/">贵阳-黄果树</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/xingyi/">兴义</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">360</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/xingyi/">贵阳-兴义</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/xingren/">兴仁</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">290</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/xingren/">贵阳-兴仁</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/xiangzhigou/">香纸沟</a></td> 
+ <td class="td3" style="text-align: center">08:00</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">50</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/xiangzhigou/">贵阳-香纸沟</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/zhenfeng/">贞丰</a></td> 
+ <td class="td3" style="text-align: center">08:00-16:00/每70分钟一班</td> 
+ <td class="td3" style="text-align: center">豪华中客</td> <td class="td3" style="text-align: center">255</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/zhenfeng/">贵阳-贞丰</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/zhenfeng/">贞丰</a></td> 
+ <td class="td3" style="text-align: center">08:00-16:00/每80分钟</td> 
+ <td class="td3" style="text-align: center">豪华车卧铺</td> <td class="td3" style="text-align: center">255</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/zhenfeng/">贵阳-贞丰</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/xingyi/">兴义</a></td> 
+ <td class="td3" style="text-align: center">08:00-16:30/每60分钟一班</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">360</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/xingyi/">贵阳-兴义</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/maiping/">麦坪</a></td> 
+ <td class="td3" style="text-align: center">08:10</td> 
+ <td class="td3" style="text-align: center">中客</td> <td class="td3" style="text-align: center">31</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/maiping/">贵阳-麦坪</a></td> 
+</tr> 
+ 
+ 
+<tr bgcolor=#fafafa onmouseover=this.bgColor='#e7eff8'; onmouseout=this.bgColor='#fafafa';> 
+ <td class="td31"><a target="_blank" href="http://www.checi.org/city/guiyang/xingyi/">兴义</a></td> 
+ <td class="td3" style="text-align: center">08:10</td> 
+ <td class="td3" style="text-align: center">-</td> <td class="td3" style="text-align: center">360</td> 
+ <td class="td32" style="text-align: center"><a target="_blank" href="http://www.checi.org/city/guiyang/xingyi/">贵阳-兴义</a></td> 
+</tr> 
+ 
+ 
+ 
+</table> 
+
+
+
+
+
+
+<!-- InstanceEndEditable -->
+     </td>
+  </tr>
+  
+  <tr>
+    <td height="80" colspan="3" align="center" valign="middle" bgcolor="#FFFFFF" class="style89">
+    <div align="center"><span class="style87"></span></div>      
+    <span class="style87"><span class="style86">
+    <FONT face=宋体></FONT> </span></span>
+
+
+
+<table width="980" height="4" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="69B3CC">
+  <tr>
+    <td height="4"></td>
+  </tr>
+</table>
+<table width=""980"" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="50" align="center" bgcolor="#FFFFFF">
+    2013 版权所有：金阳汽车客运站务有限公司信息中心 <br>
+    <!--  <a HREF="admin/first.jsp" target="_blank">后台管理</a>--> </td>
+  </tr>
+</table>
+
+
+</html>
