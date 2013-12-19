@@ -1,0 +1,320 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+
+namespace 汽车车票查询系统
+{
+    public partial class Form1 : Form
+    {
+        SQLDataBase sqlbase = new SQLDataBase();
+
+        public Form1()
+        {
+            InitializeComponent();
+
+        }
+
+
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string cmdtxt = "select *from 汽车售票数据库";
+           DataSet Ds= sqlbase.GetDs(cmdtxt);
+          
+
+            //TODO: 这行代码将数据加载到表“汽车售票数据库DataSet.汽车售票表”中。您可以根据需要移动或移除它。
+            this.汽车售票表TableAdapter.Fill(this.汽车售票数据库DataSet.汽车售票表);
+
+
+        }
+        /// <summary>
+        /// 发站到目的站查询按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        #region   发站到目的站查询按钮
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (station.Text == "")
+            {
+                MessageBox.Show("您没有输入出发站。");
+            }
+            else if (shang.Text == "")
+            {
+                MessageBox.Show("您没有输入目的站。");
+            }
+            else
+            {
+                try
+                {
+
+                    string sql = "SELECT * FROM 汽车售票表 WHERE 目的站=('" + station.Text.ToString() + "')and 上车站=('" + shang.Text.ToString() + "')";
+                    SqlConnection con = ConnectionManger.Getconnection();
+                    SqlDataAdapter cmd = new SqlDataAdapter(sql, con);
+                    con.Open();
+                    汽车售票数据库DataSet ds = new 汽车售票数据库DataSet();
+                    cmd.Fill(ds.汽车售票表);
+                    con.Close();
+                    dataGridView1.DataSource = ds.Tables["汽车售票表"];
+
+                }
+                catch
+                {
+
+                    MessageBox.Show("没有您需要的目的站的票");
+                }
+            }
+
+        }
+        #endregion
+        /// <summary>
+        ///剩余票数
+        /// </summary>
+        /// <returns></returns>
+        #region  剩余票数
+        public int tic()
+        {
+            try
+            {
+                string sql = "SELECT 剩余票数 FROM 汽车售票表 WHERE 目的站='" + station.Text.ToString() + "'";
+                SqlConnection comm = ConnectionManger.Getconnection();
+                comm.Open();
+                SqlCommand cd = new SqlCommand(sql, comm);
+                int i = int.Parse(cd.ExecuteScalar().ToString());
+                comm.Close();
+                return i;
+            }
+            catch
+            {
+                MessageBox.Show("您的目的站输入有误，或没有找到符合您要求的车辆");
+                return 0;
+            }
+
+        }
+        #endregion
+        /// <summary>
+        /// 购票
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        #region 购票
+
+        private void book_Click(object sender, EventArgs e)
+        {
+
+            if (textBox.Text == "")
+            {
+
+                MessageBox.Show("您没有输入您车票时间");
+
+            }
+            else if (station.Text == "")
+            {
+                MessageBox.Show("您没有输入您车票的上车站");
+
+            }
+            else if (shang.Text == "")
+            {
+                MessageBox.Show("没有输入目的站");
+            }
+            else
+            {
+                if (tic() > 0)
+                {
+                    Form2 p = new Form2();
+                    p.ShowDialog();
+
+                    if (p.user.Text.ToString() != "")
+                    {
+                        try
+                        {
+                            DateTime dt = DateTime.Parse(textBox.Text.ToString());
+                            string sql = "UPDATE 汽车售票表 SET 剩余票数=剩余票数-1 WHERE 目的站=('" + station.Text.ToString() + "')and 发车时间=('" + dt.ToString() + "')and 上车站=('" + shang.Text.ToString() + "') and 本车车次=('" +Convert.ToInt32( p.times.Text) + "')";
+                            SqlConnection con = sqlbase.GetCon();
+
+                            
+
+
+                            SqlCommand cmmd = new SqlCommand(sql, con);
+                            int i = (int)cmmd.ExecuteNonQuery();
+                            con.Close();
+                            if (i > 0)
+                            {
+                                
+                                MessageBox.Show("您成功预定了从" + shang.Text.ToString() + textBox.Text.ToString() + "开往" + station.Text.ToString() + "方向的车票请及时上车");
+                            }
+                            else
+                            {
+                                MessageBox.Show("您输入的信息有误或没有符合您要求的车次");
+                            }
+
+
+                        }
+                        catch
+                        {
+
+                            MessageBox.Show("您输入的信息有误或没有符合您要求的车次");
+
+                        }
+                        finally
+                        {
+
+                        }
+                    }
+                    else
+                    {
+
+                        MessageBox.Show("对不起！没有输入用户信息");
+                    }
+
+                }
+
+            }
+           
+        }
+        #endregion
+        /// <summary>
+        /// 退票
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        #region 退票
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox.Text == "")
+            {
+
+                MessageBox.Show("您没有输入您车票时间");
+
+            }
+            else if (station.Text == "")
+            {
+                MessageBox.Show("您没有输入您车票的上车站");
+
+            }
+            else if (shang.Text == "")
+            {
+                MessageBox.Show("您没有输入目的站");
+
+            }
+            else
+            {
+                try
+                {
+                    DateTime dt = DateTime.Parse(textBox.Text.ToString());
+                    hastickts.Text = tic().ToString();
+                    tuipiao p = new tuipiao();
+                    p.ShowDialog();
+                    if (p.exist != 0)
+                    {
+                        string sql = "UPDATE 汽车售票表 SET 剩余票数=剩余票数+1 WHERE 目的站=('" + station.Text.ToString() + "')and 发车时间=('" + dt.ToString() + "')and 上车站=('" + shang.Text.ToString() + "') and 本车车次=('" + Convert.ToInt32(p.times.Text) + "')";
+                        SqlConnection con = ConnectionManger.Getconnection();
+                        
+
+
+                        con.Open();
+                        SqlCommand cmmd = new SqlCommand(sql, con);
+                        int i = (int)cmmd.ExecuteNonQuery();
+                        con.Close();
+                        if (i > 0)
+                        {
+                            
+                            MessageBox.Show("退票成功");
+                        }
+                        else
+                        {
+                           
+                        }
+                    }
+                    else {
+ 
+                    }
+
+
+                }
+                catch
+                {
+                    MessageBox.Show("您之前没有定制该车票");
+                }
+                finally
+                {
+
+                }
+            }
+        }
+        #endregion
+
+       
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 t = new Form3();
+            t.ShowDialog();
+        }
+        /// <summary>
+        /// 现有车票
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        #region   现有车票
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string sql = "SELECT * FROM 汽车售票表";
+            SqlConnection con = ConnectionManger.Getconnection();
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataAdapter dt = new SqlDataAdapter(sql, con);
+            汽车售票数据库DataSet ds = new 汽车售票数据库DataSet();
+            dt.Fill(ds.汽车售票表);
+            con.Close();
+            dataGridView1.DataSource = ds.Tables["汽车售票表"];
+
+        }
+        #endregion
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+
+            if (MessageBox.Show("您确定要退出么", "消息框", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.No)
+            {
+
+                e.Cancel = true;
+
+
+            }
+
+        }
+
+        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow currentrow = dataGridView1.Rows[e.RowIndex];
+            price.Text = currentrow.Cells[5].Value.ToString();
+            aboveprice.Text = currentrow.Cells[6].Value.ToString();
+            hastickts.Text = currentrow.Cells[14].Value.ToString();
+        }
+
+        private void textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+    }
+}
